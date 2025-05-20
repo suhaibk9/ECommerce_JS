@@ -5,11 +5,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ECommerce</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="common.css">
     <link rel="stylesheet" href="index.css">
 
 </head>
 
 <body>
+    <div class="homePage">
+        <!-- Header -->
+        <nav class="header">
+            <div class="container">
+                <!--Navbar-->
+                <div class="row">
+                    <div class="header-wrapper d-flex justify-content-between">
+                        <div class="logo d-inline-block">
+                            <a href="index.html" class="text-decoration-none">
+                                ShopCart
+                            </a>
+                        </div>
+                        <div class="d-flex flex-row user-actions justify-content-evenly">
+                            <a href="cart.html" class="text-decoration-none">Cart</a>
+                            <div class="user-intro" id="userIntro">Hi User</div>
+                            <div class="logout-btn" id="logoutBtn">Logout</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- End of Header -->
+        <!-- Main Content -->
+        <main class="container">
+            <div class="row">
+                <div class="home-title text-center">Welcome To ShopCart</div>
+                <div class="category-list d-flex flex-row justify-content-center align-items-center" id="categoryList">
+                    <!--Categories-->
+                    Categories
+                </div>
+                <div class="category-title text-center">Select a Category to Start Shopping</div>
+            </div>
+        </main>
+    </div>
     <script src="index.js"></script>
 </body>
 
