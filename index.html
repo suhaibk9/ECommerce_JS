@@ -15,7 +15,7 @@
 <body>
     <div class="homePage">
         <!-- Header -->
-        <nav class="header">
+        <nav id="header">
             <div class="container">
                 <!--Navbar-->
                 <div class="row">
@@ -26,7 +26,7 @@
                             </a>
                         </div>
                         <div class="d-flex flex-row user-actions justify-content-evenly">
-                            <a href="cart.html" class="text-decoration-none">Cart</a>
+                            <a href="cart.html">Cart</a>
                             <div class="user-intro" id="userIntro">Hi User</div>
                             <div class="logout-btn" id="logoutBtn">Logout</div>
                         </div>
@@ -39,9 +39,12 @@
         <main class="container">
             <div class="row">
                 <div class="home-title text-center">Welcome To ShopCart</div>
-                <div class="category-list d-flex flex-row justify-content-center align-items-center" id="categoryList">
-                    <!--Categories-->
-                    Categories
+                <div class="category-list" id="categoryList">
+                    <div class="category-item"><a href="">All Products</a></div>
+                    <div class="category-item"><a href="">Electronics</a></div>
+                    <div class="category-item"><a href="">Fashion</a></div>
+                    <div class="category-item"><a href="">Home & Kitchen</a></div>
+                    <div class="category-item"><a href="">Books</a></div>
                 </div>
                 <div class="category-title text-center">Select a Category to Start Shopping</div>
             </div>
